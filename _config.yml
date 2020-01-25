@@ -109,7 +109,7 @@ analytics:
 author:
   name             : "Sreejith Ramachandran"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am a passionate person with a strong drive toward achieving what I set my mind to. I'm especially interested in using data to enhance business results."
+  bio              : "Data Scientist"
   location         : "Bangalore"
   email            :
   links:
@@ -294,10 +294,10 @@ defaults:
       share: true
       related: true
 
-#_pages:
-  - scope:
-    path:""
-    type:posts
-    values:
-      layout:single
-      author_profile:true
+      # _posts
+      - scope:
+          path: ""
+          type: posts
+        values:
+          layout: single
+          author_profile: true
